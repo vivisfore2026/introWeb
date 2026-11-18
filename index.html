@@ -1,87 +1,135 @@
-<!-- estructura de un documento HTML esto es un comentario -->
-<!--  comentario -->
-
-<!doctype html>
-<!-- usa ultima versionhtml5 -->
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <!-- cabecera de la pagina - configuraciones -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introducción a HTML</title>
-  </head>
-  <body>
-    <!-- el cuerpo de la pagina - contenido visible -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Chewy&family=DynaPuff:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Cherry+Bomb+One&family=Chewy&family=DynaPuff:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<title>Huella Urbana | Paseo de mascotas</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo de Huella Urbana">
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="boton">Inicio</a></li>
+                <li><a href="#servicios" class="boton">Servicios</a></li>
+                <li><a href="#planes" class="boton">Planes</a></li>
+                <li><a href="#paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#contacto" class="boton">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Titulos y subtitulos -->
-    <h1 style="color: red;">Titulo Principal de la pagina</h1>
-    <h2>Subtitulo...</h2>
-    <h3>Subsubtitulo...</h3>
-    <h4>Subsubsubtitulo...</h4>
-    <h5>Subsubsubsubtitulo...</h5>
-    <h6>Subsubsubsubsubtitulo...</h6>
+    <main>
+        <section id="inicio">
+            <h1>Huella Urbana</h1>
+            <p>Paseos seguros y felices para tu mascota, mientras tú cumples con tu día.</p>
+            <a href="#contacto">Agenda un paseo</a>
+            <img src="img/principal.jpg" alt="Paseador caminando con tres perros en un parque">
+        </section>
 
-    <!-- Parrafo -->
-    <p>
-      Este es un parrafo de ejemplo. Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Recusandae reprehenderit, dolorum quaerat veniam hic
-      dolore excepturi non, saepe qui consequatur quibusdam deserunt fugit,
-      provident rerum dicta eos asperiores doloribus quidem. Iusto aspernatur
-      officiis error est harum magnam, enim iure doloribus, saepe porro, numquam
-      accusantium velit perferendis incidunt expedita amet illo explicabo?
-      Aliquid, totam! Iusto, earum placeat eveniet tempora ad asperiores.
-      <strong style="color: green;">ullam omnis quisquam iusto impedit, similique est qui quas
-        reiciendis</strong>
-      Esse totam asperiores repudiandae natus eligendi dolor expedita in,
-      architecto, accusantium ratione. Molestias sed dicta omnis nisi eveniet
-      voluptatibus nihil. <em>Tenetur illum deleniti fugiat beatae</em>, eius totam
-      accusamus enim saepe! <span style="color: blue; background: yellow;">Corporis ex enim quam, omnis ipsum veritatis</span>  quaerat
-      incidunt obcaecati quae amet nesciunt repellat aut ipsam, facere
-      necessitatibus vel aliquam! Repellendus doloribus minima atque ut earum
-      incidunt voluptates iure delectus velit officiis, aspernatur a ratione
-      nisi quo? Hic sapiente, magnam laudantium consectetur exercitationem
-      maxime cupiditate vitae earum iste dicta nulla. Non error vel rem, a
-      laborum consequatur iure voluptatibus incidunt aut ipsa earum aliquam
-      possimus corrupti autem eos, eum laudantium officia corporis architecto!
-      Quibusdam itaque quam nihil architecto, consequuntur obcaecati! Accusamus
-      itaque, repudiandae quibusdam enim dolor fugiat fuga omnis! Doloribus
-      iusto veniam asperiores fuga dolor est eum sed iste rerum, error officia
-      repellat incidunt sapiente, ea in nulla? Esse, eius! Numquam tempore esse
-      dolorum ratione porro quasi eaque nemo voluptatibus architecto sapiente
-      adipisci nulla temporibus perspiciatis culpa cupiditate, iste cumque
-      itaque obcaecati incidunt minus consequatur natus eum, rem quis.
-      Asperiores. Debitis voluptatum aut architecto labore facilis molestias
-      velit corrupti, eaque necessitatibus suscipit officiis ipsam ipsa
-      doloremque quis, nihil rem officia vel, dignissimos saepe. Numquam,
-      asperiores ratione? Perspiciatis consectetur repellendus provident. Cumque
-      quos deleniti explicabo autem beatae officiis labore sapiente tempora
-      officia totam iusto, adipisci voluptatem quia unde corrupti quaerat ad
-      nemo, quam saepe! Amet nesciunt cumque sunt eaque commodi eveniet.
-    </p>
-<!-- listas sin orden -->
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
 
-<ul>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-    <li>Elemento 3</li>
-</ul>
+            <article>
+                <img src="img/paseo-individual.jpg" alt="Perro con correa paseando junto a su paseador">
+                <h3>Paseo individual</h3>
+                <p>Atención exclusiva para tu mascota durante 30 o 60 minutos.</p>
+            </article>
 
-<!-- listas ordenadas -->
-    <ol type="A">
-      <li>Elemento 1</li>
-      <li>Elemento 2</li>
-      <li>Elemento 3</li>
-    </ol>
+            <article>
+                <img src="img/paseo-grupal.jpg" alt="Paseadora con un grupo de perros en la calle">
+                <h3>Paseo grupal</h3>
+                <p>Tu mascota socializa con otros perros en grupos de máximo 5.</p>
+            </article>
 
-<!-- enlaces -->
-<a href="https://www.google.com" target="_blank">Ir a Google</a>
-<br> <!-- salto de linea -->
-<a href="https://www.youtube.com" target="_parent">Ir a YouTube</a>
-<br>
-<a href="ejemploImagen.html" target="_blank">Logo de la empresa</a>
-<br>
-<img src="https://www.segurmaniazurekin.eus/a/2020/11/segurmania_mascotas_destacada-320x240.jpg" alt="mascotas">
-<img src="https://lh3.google.com/u/0/d/1tGShNsgvydGtETEWtd74CBeijsd76bh3=w1366-h633-iv1?auditContext=forDisplay" alt="mascotas">
+            <article>
+                <img src="img/guarderia.jpg" alt="Perros jugando en una guardería">
+                <h3>Guardería de día</h3>
+                <p>Juego, descanso y cuidado mientras estás en el trabajo.</p>
+            </article>
+        </section>
 
+        <section id="planes">
+            <h2>Planes y tarifas</h2>
+
+            <article>
+                <h3>Plan semanal</h3>
+                <p>$65.000 por 5 paseos</p>
+                <ul>
+                    <li>Lunes a viernes</li>
+                    <li>Mismo paseador</li>
+                    <li>Reporte con foto</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Plan mensual</h3>
+                <p>$220.000 por 20 paseos</p>
+                <ul>
+                    <li>Lunes a viernes</li>
+                    <li>Mismo paseador</li>
+                    <li>Seguimiento del recorrido por GPS</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="como-funciona">
+            <h2>¿Cómo funciona?</h2>
+            <ol>
+                <li>Escríbenos y cuéntanos sobre tu mascota.</li>
+                <li>Te asignamos un paseador de confianza.</li>
+                <li>Recibes fotos y el reporte de cada paseo.</li>
+            </ol>
+        </section>
+
+        <section id="paseadores">
+            <h2>Nuestros paseadores</h2>
+
+            <article>
+                <img src="img/paseador-1.jpg" alt="Foto de Laura, paseadora de Huella Urbana">
+                <h3>Juan Gómez</h3>
+                <p>Paseadora desde 2021. Experto en perros grandes.</p>
+            </article>
+
+            <article>
+                <img src="img/paseador-2.jpg" alt="Foto de Andrés, paseador de Huella Urbana">
+                <h3>Andrea Rojas</h3>
+                <p>Especialista en cachorros y perros con mucha energía.</p>
+            </article>
+
+            <article>
+                <img src="img/paseador-3.jpg" alt="Foto de Camila, paseadora de Huella Urbana">
+                <h3>Camilo Torres</h3>
+                <p>Estudiante de veterinaria. Ideal para mascotas mayores.</p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Escríbenos y agenda el primer paseo de tu mascota.</p>
+            <ul>
+                <li><a href="mailto:hola@huellaurbana.com">hola@huellaurbana.com</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Horario y cobertura</h2>
+        <p>Lunes a sábado, de 7:00 a. m. a 6:00 p. m.</p>
+        <p>Atendemos en el norte y el centro de la ciudad.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Huella Urbana. Todos los derechos reservados.</p>
+        <p>Fotos: <a href="https://www.pexels.com" target="_blank">Pexels</a> y <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p>
+    </footer>
 </body>
 </html>

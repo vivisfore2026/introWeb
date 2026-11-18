@@ -1,0 +1,121 @@
+/* ===== Paleta de marca ===== */
+:root {
+    --verde: #09C846;
+    --amarillo: #f0f805;
+    --cielo: #D8D8F2;
+    --azul: #260fbc;
+    --blanco: #FFFFFF;
+}
+
+
+/* ===== Base ===== */
+body {
+    background-color: var(--cielo);
+    color: var(--azul);
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14pt;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    color: var(--verde);
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ===== Tarjetas y secciones ===== */
+article {
+    background-color: var(--blanco);
+    padding: 20px 100px;
+    border: 2px solid var(--verde);
+    margin: 20px;
+    border-radius: 12px;
+}
+article img {
+    height: auto;
+    border-radius: 12px;
+}
+section {
+    padding: 40px 20px;
+}
+
+/* ===== Encabezado ===== */
+header {
+    background-color: var(--verde);
+}
+
+header img {
+    width: 300px;
+    height: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ===== Hero ===== */
+#inicio {
+    text-align: center;
+    padding: 20px 200px;
+}
+
+#inicio a {
+  display: block;
+}
+
+#inicio p {
+    font-size: 1.3rem;
+}
+
+#inicio img {
+    border-radius: 12px;
+
+}
+
+.boton {
+    display: inline-block;
+    background-color: var(--amarillo);
+    color: var(--azul);
+    padding: 12px 28px;
+    margin: 10px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.boton:hover {
+    background-color: var(--verde);
+    color: var(--blanco);
+}
